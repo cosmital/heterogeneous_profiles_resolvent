@@ -1,0 +1,51 @@
+# Lean build products and downloaded dependencies
+**/.lake/
+*.olean
+*.ilean
+*.c
+*.o
+/lean/verification/
+# Python environments and caches
+**/.venv/
+**/venv/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+# LaTeX auxiliary products (the article PDF and figure PDFs are tracked)
+/paper/Resolvent_conv_heterogeneous_profiles.pdf
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.synctex*
+*.nav
+*.snm
+# Generated experiments, temporary data, editor/OS files
+/simulations/generated/
+/simulations/data/tmp/
+*.autosave*
+*.bak
+*.tmp
+*~
+.DS_Store
+Thumbs.db
+NUL
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+**/.aws/
+**/.ssh/
+**/.codex/
+**/.agents/
+*.pem
+*.key
+credentials.json

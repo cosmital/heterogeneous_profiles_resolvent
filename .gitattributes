@@ -1,0 +1,10 @@
+* text=auto
+*.md text eol=lf
+*.json text eol=lf
+*.py text eol=lf
+*.pdf binary
+# Preserve the author-provided manuscript and drawing sources byte for byte.
+paper/*.tex -text
+paper/*.bib -text
+paper/*.cls -text
+paper/figures/*.ipe -text

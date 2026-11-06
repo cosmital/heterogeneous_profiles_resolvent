@@ -1,0 +1,4 @@
+# Dependencies inferred from imports in the archived cone illustration.
+# Original versions are unknown; this is not a tested lockfile.
+numpy
+matplotlib
