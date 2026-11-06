@@ -11,6 +11,14 @@ successfully before this repository was prepared. The reference PDF is preserved
 byte for byte. PDF extraction is used only as a correspondence cross-check;
 symbol-heavy statements still require visual inspection during formalization.
 
+Correspondence check: extracted text before the References section is identical
+between the reference PDF and the current workspace rebuild. The current
+`biblio.bib` regenerates slightly updated reference entries (capitalization,
+edition formatting, and arXiv metadata) and reference pagination. Therefore a
+fresh build is not byte-identical to the reference PDF; the reference PDF is
+retained as the mathematical authority. No older bibliography or manuscript
+was substituted to hide these differences.
+
 Build from this directory:
 
 ```sh

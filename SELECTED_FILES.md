@@ -8,6 +8,9 @@ and experiment files were copied, not moved or deleted.
 
 Authority: `paper/Resolvent_conv_heterogeneous_profiles_LOUART.pdf` (62 pages).
 The selected source is the current manuscript, not an archived draft.
+Extracted text before References matches the reference PDF; the current
+bibliography regenerates minor metadata/formatting updates and different
+reference pagination, as documented in `paper/README.md`.
 
 | Original location | Repository destination | Reason |
 | --- | --- | --- |
